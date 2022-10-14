@@ -28,13 +28,13 @@ const emit = defineEmits<{
 <style scoped lang="scss">
 .search{
     &__form{
-        margin:40px 0;
+        margin:30px 0;
     }
     &__wrapper{
     display: flex;
-padding: .6rem 1rem;
+padding: .9rem 1rem;
 border:1.2px solid rgb(236, 235, 235);
-border-radius: 1.3rem;
+border-radius: 2rem;
     }
     &__input{
       flex:1 1 auto;  
