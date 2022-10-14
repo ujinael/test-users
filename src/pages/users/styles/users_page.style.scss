@@ -1,0 +1,48 @@
+
+.users__list{
+display: grid;
+grid-template-columns: repeat(auto-fill,minmax(370px,370px));
+justify-content: center;
+gap:1.2rem;
+}
+.user_card{
+background-color: var(--card-color);
+height: 320px;
+border-radius: var(--common_border_radius);
+padding:40px 2rem;
+box-shadow: 2px 6px 5px rgba(211, 211, 211, 0.1);
+&:hover{cursor: pointer;}
+&__name{
+font-weight: 500;
+}
+&__contacts{
+    margin-top:40px;
+    display: grid;
+    justify-content: flex-start;
+    gap:1rem;
+}
+&__link{
+    color: slategray;
+    text-decoration: none;
+    display: flex;
+    gap:.9rem;
+    align-items: center;
+}
+&__link:hover{
+    cursor: pointer;
+}
+&__phone{
+    font-size: 1.1em;
+}
+&__email{
+font-weight: 300;
+font-size: .85em;
+text-decoration: underline;
+}
+&__icon{
+    color: var(--accent-color);
+    font-size: large;
+
+}
+}
+
