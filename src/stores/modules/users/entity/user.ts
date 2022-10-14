@@ -1,6 +1,5 @@
 
 import { Expose, Type } from "class-transformer"
-import {CreateUserDto,UpdateUserDto} from '../dto/'
 export class User
 {
 id?:string
